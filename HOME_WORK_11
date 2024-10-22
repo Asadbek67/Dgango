@@ -1,0 +1,116 @@
+# # vazifa_1
+# text = "Sizda parol: abc123def"
+# updated_text = ""
+# i = 0
+# while i < len(text):
+#     if not text[i].isdigit():
+#         updated_text += text[i]
+#     i += 1
+# print(updated_text)
+
+
+# # vazifa_2 
+# text = "hdfabfh hbfbjahbfh hbflhbfhjf."
+# updated_text = ""
+# i = 0
+# while i < len(text) and i < 10:
+#     updated_text += text[i]
+#     i += 1
+# print(updated_text)
+
+
+# # vazifa_3
+# name = "A15632li123"
+# clean_name = ""
+# i = 0
+# while i < len(name):
+#     if not name[i].isdigit():
+#         clean_name += name[i]
+#     i += 1
+# print(clean_name)
+
+
+# # vazifa_4
+# text = "AKSBKBAKAJFSKFJ:JAFS"
+# updated_text = ""
+# i = 0
+# while i < len(text):
+#     if text[i] != " ":
+#         updated_text += text[i].lower()
+#     i += 1
+# print(updated_text)
+
+
+# # vazifa_5
+# text = "DSKJDNANafnafajffnwefoifkfmm mcxvx"
+# vowels = "aeiouAEIOU"
+# only_vowels = ""
+# i = 0
+# while i < len(text):
+#     if text[i] in vowels:
+#         only_vowels += text[i]
+#     i += 1
+# print(only_vowels)
+
+
+# # vazifa_6
+# word = "xabcsdfgngldsnfnadadnadnandbbbababababad"
+# updated_word = ""
+# i = 0
+# while i < len(word):
+#     if i < len(word) - 1 and word[i] == 'a' and word[i + 1] == 'b':
+#         updated_word += '#'
+#         i += 2
+#     else:
+#         updated_word += word[i]
+#         i += 1
+# print(updated_word)
+
+
+# # vazifa_7 
+# number_string = "123456"
+# is_all_digits = all(char.isdigit() for char in number_string)
+# if is_all_digits:
+#     reversed_string = ""
+#     i = len(number_string) - 1
+#     while i >= 0:
+#         reversed_string += number_string[i]
+#         i -= 1
+#     print(reversed_string)
+
+
+# # vazifa_8
+# word = "example"
+# mid_index = len(word) // 2
+# updated_word = ""
+# i = 0
+# while i < len(word):
+#     if i != mid_index:
+#         updated_word += word[i]
+#     i += 1
+# print(updated_word)
+
+
+# # vazifa_9
+# name = "AliA"
+# if name.endswith("a"):
+#     print(name.lower())
+# else:
+#     print(name)
+
+
+# # vaazifa_10
+# text = "programming"
+# unique_chars = ""
+# i = 0
+# while i < len(text):
+#     if text[i] not in unique_chars:
+#         unique_chars += text[i]
+#     i += 1
+# print(unique_chars)
+
+
+# # vazifa11
+# word = "aeiou"
+# if all(char in "aeiouAEIOU" for char in word):
+#     print(word.upper())
